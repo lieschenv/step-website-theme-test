@@ -1,0 +1,104 @@
+# Chulapa Jekyll Theme
+
+> Chulapa is a flexible, feature-rich Jekyll theme designed for GitHub Pages. It
+> enables users to quickly build responsive websites such as blogs, portfolios,
+> documentation sites, and project pages.
+>
+> The theme is built on Bootstrap and integrates multiple tools for search, SEO,
+> customization, and content presentation.
+
+## Keywords
+jekyll, github-pages, bootstrap, static-site, theme, blog, documentation, seo, responsive
+
+## Entry Points
+Documentation: https://dieghernan.github.io/chulapa/docs
+Installation: https://dieghernan.github.io/chulapa/docs/01-install
+Configuration: https://dieghernan.github.io/chulapa/docs/02-config
+Theming: https://dieghernan.github.io/chulapa/docs/03-theming
+Layouts: https://dieghernan.github.io/chulapa/docs/04-layouts
+FAQs: https://dieghernan.github.io/chulapa/docs/05-faq
+Markdown: https://dieghernan.github.io/chulapa/docs/markdown-cheatsheet
+Syntax Highlighting: https://dieghernan.github.io/chulapa/docs/syntax-highlighting
+Variables: https://dieghernan.github.io/chulapa/docs/variable-dictionary
+
+## Core Features
+- Responsive design (Bootstrap)
+- Multiple navbar layouts and UI components
+- Tag, archive, and index layouts
+- Multi-author support
+
+## Content & Rendering
+- Markdown-based content
+- Syntax highlighting (Pygments / Rouge)
+- Math rendering (MathJax)
+- Image galleries (Masonry)
+- Embedded video (YouTube, Vimeo)
+- Reading time and metadata
+
+## Search Options
+- Algolia
+- Lunr.js
+- Fuse.js
+- Simple-Jekyll-Search
+
+## SEO & Metadata
+- Open Graph metadata
+- Twitter/X Cards
+- Structured data (JSON-LD)
+- RSS and Atom feeds
+
+## Comments
+- Disqus
+- Giscus
+
+## Installation
+1. GitHub Template (recommended)
+2. Remote theme:
+   - Add `remote_theme: dieghernan/chulapa` to `_config.yml`
+3. Gem-based:
+   - Add `gem "chulapa-jekyll"` to Gemfile
+   - Set `theme: chulapa-jekyll`
+
+## Configuration
+Managed via `_config.yml`:
+
+- Site metadata: `title`, `description`, `locale`
+- SEO: `og_image`, `twitter_site`
+- Author: name, avatar, location, social links
+- Navigation: navbar and footer
+- Theming: skins and variables
+- Pagination: `paginator_maxnum`
+
+## Theming
+- 40+ predefined skins (Bootswatch-based)
+- Custom variables via `_config.yml`
+- CSS overrides supported
+- Sandbox for experimentation
+
+## Key Files
+- `_config.yml` -- global configuration
+- `_posts/` -- blog content
+- `_layouts/` -- templates
+- `_includes/` -- reusable components
+- `assets/` -- CSS, JS, images
+
+## Use Cases
+- Personal blogs
+- Technical documentation
+- Data science portfolios
+- Open-source project sites
+- Multi-author websites
+
+## Ecosystem & Extensions
+- Compatible with Jekyll plugins and Liquid templates
+- Supports GitHub Pages workflows
+- Extendable via layouts, includes, and assets
+
+## Constraints
+- Requires Jekyll knowledge
+- YAML configuration required
+- Advanced customization uses Liquid templates
+- Some features depend on third-party services (e.g., Algolia, Disqus)
+
+## Summary
+Flexible, production-ready Jekyll theme for GitHub Pages combining ease of setup with extensive customization.
